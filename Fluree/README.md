@@ -4,7 +4,7 @@ You need to have the docker desktop.
 Run the following command in your command prompt   
 docker run -d --restart=always -p 8090:8090 fluree/ledger:latest  
 This will add a container in your fluree application in a running state.  
-Hover the mouse on the container, and use the option to Open in Browser  
+Hover the mouse on the container, and use the option to Open in Browser    
 Now you can create a ledger to start with it, make sure to use only smaller letters in the ledger name.  
 
 ![Screenshot](../Fluree/imgs/createLedger.PNG)
