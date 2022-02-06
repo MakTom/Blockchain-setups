@@ -21,7 +21,7 @@ Fluree has a docker image will can be used to easily spin up a Fluree instance, 
      ![Screenshot](../Fluree/imgs/insertdata.PNG)  
 
 10. Now we will query the collection to fetch the data. 
-        ![Screenshot](../Fluree/imgs/selectquery.PNG)  
+    ![Screenshot](../Fluree/imgs/selectquery.PNG)  
 
 You can explore the fluree doumentation for further learnings.   
     https://developers.flur.ee/docs/overview/fluree_basics/
