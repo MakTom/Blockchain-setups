@@ -10,21 +10,18 @@ Fluree has a docker image will can be used to easily spin up a Fluree instance, 
     ![Screenshot](../Fluree/imgs/createLedger.PNG)
 
 6.  Now you will need to create a schema which contains, collections and predicates which are tables and colmns in databse terms.  
-7.  Below JSON files on the left side of the screenshot will create two collectioned named person and chat respectively. 
-    ![Screenshot](../Fluree/imgs/createCollections.PNG)
+7.  Below JSON files on the left side of the screenshot will create two collectioned named person and chat respectively.  
+    ![Screenshot](../Fluree/imgs/createCollections.PNG)  
     Click on the run button on top left side of the screen to execute the transaction. 
 
- 
+8.  Now you will need to add fields to the tables, below JSON will create predicates within the collections.
+    ![Screenshot](../Fluree/imgs/createPredicates.PNG)  
+  
+9.  Now that you have created the fields you can push the data into the tables.
+     ![Screenshot](../Fluree/imgs/insertdata.PNG)  
 
-Now you will need to add fields to the tables, below JSON will create predicates within the collections.
- 
+10. Now we will query the collection to fetch the data. 
+        ![Screenshot](../Fluree/imgs/selectquery.PNG)  
 
-Now that you have created the fields you can push the data into the tables.
- 
-
-Above transaction will add two rows of data in Person collection.
-Now we will query the collection to fetch the data. 
- 
-
-And you can explore the fluree doumentation for further learnings. 
-https://developers.flur.ee/docs/overview/fluree_basics/
+You can explore the fluree doumentation for further learnings.   
+    https://developers.flur.ee/docs/overview/fluree_basics/
