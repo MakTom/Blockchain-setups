@@ -7,7 +7,7 @@ Fluree has a docker image will can be used to easily spin up a Fluree instance, 
 -Hover the mouse on the container, and use the option to Open in Browser
 -Now you can create a ledger to start with it, make sure to use only smaller letters in the ledger name.
 
-![Screenshot](../img/Createledger.PNG)
+![Screenshot](../imgs/Createledger.PNG)
 
 Now you will need to create a schema which contains, collections and predicates which are tables and colmns in databse terms. 
 Below JSON files on the left side of the screenshot will create two collectioned named person and chat respectively. Click on the run button on top left side of the screen to execute the transaction. 
