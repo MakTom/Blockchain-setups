@@ -1,6 +1,6 @@
 
-Fluree has a docker image will can be used to easily spin up a Fluree instance, below are the steps to achive this.
--You need to have the docker desktop.
+Fluree has a docker image will can be used to easily spin up a Fluree instance, below are the steps to achive this.  
+You need to have the docker desktop.  
 -Run the following command in your command prompt 
 	docker run -d --restart=always -p 8090:8090 fluree/ledger:latest
 -This will add a container in your fluree application in a running state.
