@@ -1,5 +1,5 @@
 
-Fluree has a docker image will can be used to easily spin up a Fluree instance, below are the steps to achive this.  
+Fluree has a docker image which can be used to easily spin up a Fluree instance, below are the steps to achive this.  
 
 1.  You need to have the docker desktop.  
 2.  Run the following command in your command prompt   
