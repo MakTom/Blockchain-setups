@@ -57,14 +57,14 @@ https://developers.cardano.org/docs/get-started/installing-cardano-node
 
 ## Running Cardano Node
 1.  Below are the commands to fetch the config files for the mainnet and testnet, Do run commands to have a copy of the     config files.   
-Network Magic : 764824073   
+    Network Magic : 764824073   
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-config.json  
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-byron-genesis.json  
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-shelley-genesis.json  
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-alonzo-genesis.json  
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-topology.json  
 
-NetworkMagic: 1097911063  
+    NetworkMagic: 1097911063  
     curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-topology.json  
     curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-shelley-genesis.json  
     curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-config.json  
