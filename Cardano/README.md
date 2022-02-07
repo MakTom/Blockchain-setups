@@ -65,12 +65,12 @@ https://developers.cardano.org/docs/get-started/installing-cardano-node
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-alonzo-genesis.json  
     curl -O -J https://hydra.iohk.io/build/7370192/download/1/mainnet-topology.json  
 
-        NetworkMagic: 1097911063  
-        curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-topology.json  
-        curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-shelley-genesis.json  
-        curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-config.json  
-        curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-byron-genesis.json  
-        curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-alonzo-genesis.json  
+    NetworkMagic: 1097911063  
+    curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-topology.json  
+    curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-shelley-genesis.json  
+    curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-config.json  
+    curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-byron-genesis.json  
+    curl -O -J https://hydra.iohk.io/build/7654130/download/1/testnet-alonzo-genesis.json  
 
 2.  You can place above config files in a separate folder.  
 3.  Also make a directory for db inside cardano-node, amke sure to double check the address location of your config files and the update accordingly in the below command.   
