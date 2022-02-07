@@ -51,7 +51,7 @@
 
 ## Installing Catalyst on Ubuntu 20.4 using virtual box
 
-1.  Install Docker
+1.  Install Docker  
     sudo apt-get update  
     sudo apt-get install apt-transport-https ca-certificates curl gnupg  
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg  
