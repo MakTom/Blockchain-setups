@@ -1,10 +1,10 @@
 ## Deploying Land Registry smart contract using hardhat, please follow below steps.
 
-1.  Spin the hardhar project up using below commands
-	npm install --save-dev hardhat
-	npx hardhat
-	Install the listed dependencies
-	npm install openzeppelin-zos dotenv
+1.  Spin the hardhar project up using below commands  
+	npm install --save-dev hardhat  
+	npx hardhat  
+	Install the listed dependencies  
+	npm install openzeppelin-zos dotenv  
 2.  Clone the contracts from the below github link https://github.com/decentraland/land/tree/master/contracts
 3.  Make changes to the deploy.js in order to deploy your contracts.
 4.  Create an .env file to store network details like URL and key.
