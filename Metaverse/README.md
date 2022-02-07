@@ -10,7 +10,7 @@
 4.  Create an .env file to store network details like URL and key.
 5.  Update the hardhat.config file with network details
 6.  npx hardhat compile
-7.  Error Faced : max code size exceeded Solved: Update compiler file compilers
+7.  Error Faced : max code size exceeded Solved: Update compiler file compilers  
             compilers: 
             [
             {
