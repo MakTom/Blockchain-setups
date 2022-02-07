@@ -44,6 +44,6 @@
 9.  Error Faced: Insufficent balance, selected the account with enough ethers. 
     ![Screenshot](../Metaverse/imgs/Insufficentbalance.PNG)
 10. Contract is deployed.
-    ![Screenshot](../Metaverse/imgs/deployed.PNG)
+    ![Screenshot](../Metaverse/imgs/Deployed.PNG)
 11. Confirm by visitng the address on Etherscan.
     ![Screenshot](../Metaverse/imgs/Etherscan.PNG)
