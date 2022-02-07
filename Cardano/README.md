@@ -50,7 +50,7 @@ https://developers.cardano.org/docs/get-started/installing-cardano-node
     mkdir -p $HOME/.local/bin  
     cp -p "$(./scripts/bin-path.sh cardano-node)" $HOME/.local/bin/  
     cp -p "$(./scripts/bin-path.sh cardano-cli)" $HOME/.local/bin/  
-    export PATH="$HOME/.local/bin/:$PATH"  
+    Append this line to .bashrc file - export PATH="$HOME/.local/bin/:$PATH"  
 8.  Restart the terminal and confirm the installation with below commands  
     cardano-cli --version  
     cardano-node --version  
@@ -83,10 +83,27 @@ https://developers.cardano.org/docs/get-started/installing-cardano-node
     --config $HOME/cardano-src/cardano-node/config-files/testnet-config.json   
 4.  Above command will run the Cardano node.   
 
-## Querying  
+## Querying  - Cardano node should be running
 
 1.  Open .bashrc file and add the below line at the end.  
-    export CARDANO_NODE_SOCKET_PATH$HOME/cardano-src/cardano-node/db/node.socket "  
+    export CARDANO_NODE_SOCKET_PATH="$HOME/cardano-src/cardano-node/db/node.socket"  
 2.  Restart your terminal  
     cd home/cardano-src/cardano-node/  
 	cardano-cli query tip --testnet-magic 1097911063  
+
+## Installing Wallet - Cardano node should be running and fully synced
+
+1.  Download  
+    curl -sSL https://get.haskellstack.org/ | sh  
+    stack –version  
+2.  Download source code
+    cd $HOME/cardano-src  
+    git clone https://github.com/input-output-hk/cardano-wallet.git   
+    cd ./cardano-wallet/  
+    TAG=$(git describe --tags --abbrev=0) && echo latest tag $TAG   
+    git checkout $TAG  
+3.  Build and install node  
+    stack build --test --no-run-tests   
+    stack install   
+    cardano-wallet version 
+
