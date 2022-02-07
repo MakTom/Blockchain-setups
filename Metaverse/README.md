@@ -11,7 +11,8 @@
 5.  Update the hardhat.config file with network details
 6.  npx hardhat compile
 7.  Error Faced : max code size exceeded Solved: Update compiler file compilers  
-            compilers: 
+
+            ```compilers: 
             [
             {
                 version: "0.4.24",
@@ -37,7 +38,7 @@
                 },
                 }
             }
-            ]
+            ]```
 
 8.  npx hardhat run scripts/deploy.js --network ropsten
 
